@@ -1,0 +1,16 @@
+#!/bin/bash -l
+#SBATCH -C knl
+#SBATCH -p debug            # change this option for non-debug runs
+#SBATCH -N 1                # you'll never need more than 1 node for the serial code
+#SBATCH -t 00:10:00         # adjust the amount of time as necessary
+#SBATCH -J Cori2_test
+#SBATCH -o Cori2_test.%j.stdout
+#SBATCH -e Cori2_test.%j.error
+
+srun -N 1 -n 1 ./kmer_hash /global/u1/c/cpaismz/HW3/hw3-datasets/test.txt
+srun -N 1 -n 2 ./kmer_hash /global/u1/c/cpaismz/HW3/hw3-datasets/test.txt
+srun -N 1 -n 4 ./kmer_hash /global/u1/c/cpaismz/HW3/hw3-datasets/test.txt
+srun -N 1 -n 8 ./kmer_hash /global/u1/c/cpaismz/HW3/hw3-datasets/test.txt
+srun -N 1 -n 16 ./kmer_hash /global/u1/c/cpaismz/HW3/hw3-datasets/test.txt
+srun -N 1 -n 32 ./kmer_hash /global/u1/c/cpaismz/HW3/hw3-datasets/test.txt
+srun -N 1 -n 64 ./kmer_hash /global/u1/c/cpaismz/HW3/hw3-datasets/test.txt

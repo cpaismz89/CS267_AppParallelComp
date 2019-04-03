@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH -A cc3uv3p # 2017 XSEDE Applications of Parallel Computing Course Allocation
+#SBATCH -J Largest2
+#SBATCH -o Largest2.stdout
+#SBATCH -p GPU-shared
+#SBATCH --gres=gpu:k80:1
+#SBATCH -t 00:20:00
+#SBATCH -N 1         
+
+./gpu -n 2000000 
+./gpu -n 3000000
+./gpu -n 4000000
+./gpu -n 5000000
+./gpu -n 10000000

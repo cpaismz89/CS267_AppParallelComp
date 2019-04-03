@@ -1,0 +1,14 @@
+
+Strong scaling estimates are :
+    0.90    1.95    3.93    5.87   12.13   16.17   24.15   16.46 (speedup)
+    0.90    0.98    0.98    0.98    1.01    1.01    1.01    0.51 (efficiency)    for
+       1       2       4       6      12      16      24      32 threads/processors
+
+Average strong scaling efficiency:    0.92 
+
+Weak scaling estimates are :
+    0.90    0.92    0.89    0.89    0.85    0.84    0.87    0.85 (efficiency)    for
+       1       2       4       6      12      16      24      32 threads/processors
+
+Average weak scaling efficiency:    0.88 
+

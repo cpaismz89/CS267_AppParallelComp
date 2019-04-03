@@ -1,0 +1,76 @@
+CPU-GPU copy time = 3.2e-05 seconds
+GPU mesh initialization time = 0.000344 seconds
+n = 500, simulation time = 0.059963 seconds
+CPU-GPU copy time = 4.2e-05 seconds
+GPU mesh initialization time = 0.000625 seconds
+n = 1000, simulation time = 0.062923 seconds
+CPU-GPU copy time = 6.5e-05 seconds
+GPU mesh initialization time = 0.000362 seconds
+n = 2000, simulation time = 0.065567 seconds
+CPU-GPU copy time = 8.8e-05 seconds
+GPU mesh initialization time = 0.000356 seconds
+n = 3000, simulation time = 0.065704 seconds
+CPU-GPU copy time = 9.6e-05 seconds
+GPU mesh initialization time = 0.000649 seconds
+n = 4000, simulation time = 0.077935 seconds
+CPU-GPU copy time = 0.000111 seconds
+GPU mesh initialization time = 0.000356 seconds
+n = 5000, simulation time = 0.079101 seconds
+CPU-GPU copy time = 0.000191 seconds
+GPU mesh initialization time = 0.000366 seconds
+n = 10000, simulation time = 0.100501 seconds
+CPU-GPU copy time = 0.000268 seconds
+GPU mesh initialization time = 0.00065 seconds
+n = 15000, simulation time = 0.147826 seconds
+CPU-GPU copy time = 0.000344 seconds
+GPU mesh initialization time = 0.000387 seconds
+n = 20000, simulation time = 0.176023 seconds
+CPU-GPU copy time = 0.000399 seconds
+GPU mesh initialization time = 0.00037 seconds
+n = 25000, simulation time = 0.218746 seconds
+CPU-GPU copy time = 0.0006 seconds
+GPU mesh initialization time = 0.000387 seconds
+n = 50000, simulation time = 0.449522 seconds
+CPU-GPU copy time = 0.000702 seconds
+GPU mesh initialization time = 0.000425 seconds
+n = 100000, simulation time = 0.98681 seconds
+CPU-GPU copy time = 0.001182 seconds
+GPU mesh initialization time = 0.000949 seconds
+n = 125000, simulation time = 1.32998 seconds
+CPU-GPU copy time = 0.001056 seconds
+GPU mesh initialization time = 0.001007 seconds
+n = 150000, simulation time = 1.68554 seconds
+CPU-GPU copy time = 0.001201 seconds
+GPU mesh initialization time = 0.000803 seconds
+n = 200000, simulation time = 2.3981 seconds
+CPU-GPU copy time = 0.001238 seconds
+GPU mesh initialization time = 0.000808 seconds
+n = 225000, simulation time = 2.75427 seconds
+CPU-GPU copy time = 0.001345 seconds
+GPU mesh initialization time = 0.000837 seconds
+n = 250000, simulation time = 3.16726 seconds
+CPU-GPU copy time = 0.002451 seconds
+GPU mesh initialization time = 0.001141 seconds
+n = 500000, simulation time = 6.93851 seconds
+CPU-GPU copy time = 0.005981 seconds
+GPU mesh initialization time = 0.001887 seconds
+n = 1000000, simulation time = 14.6595 seconds
+n = 500, simulation time = 0.125327 seconds
+n = 1000, simulation time = 0.235581 seconds
+n = 2000, simulation time = 0.495085 seconds
+n = 3000, simulation time = 0.877393 seconds
+n = 4000, simulation time = 1.23667 seconds
+n = 5000, simulation time = 1.63108 seconds
+n = 10000, simulation time = 3.58067 seconds
+n = 15000, simulation time = 5.54821 seconds
+n = 20000, simulation time = 7.54876 seconds
+n = 25000, simulation time = 9.54992 seconds
+n = 50000, simulation time = 20.6357 seconds
+n = 100000, simulation time = 46.3324 seconds
+n = 125000, simulation time = 57.824 seconds
+n = 150000, simulation time = 70.6142 seconds
+n = 200000, simulation time = 99.293 seconds
+n = 225000, simulation time = 117.499 seconds
+n = 250000, simulation time = 141.221 seconds
+n = 500000, simulation time = 485.961 seconds
+n = 1000000, simulation time = 1309.19 seconds

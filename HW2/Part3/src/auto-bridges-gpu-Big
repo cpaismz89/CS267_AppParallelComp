@@ -1,0 +1,32 @@
+#!/bin/bash
+#SBATCH -A cc3uv3p # 2017 XSEDE Applications of Parallel Computing Course Allocation
+#SBATCH -J auto-particle-gpu
+#SBATCH -o ResultsBig.stdout
+#SBATCH -p GPU-shared
+#SBATCH --gres=gpu:k80:1
+#SBATCH -t 00:10:00
+#SBATCH -N 1         
+
+./gpu -n 500 
+./gpu -n 1000 
+./gpu -n 2000 
+./gpu -n 3000 
+./gpu -n 4000 
+./gpu -n 5000 
+./gpu -n 10000 
+./gpu -n 15000 
+./gpu -n 20000 
+./gpu -n 25000 
+./gpu -n 50000 
+
+./serial -n 500 -no -s Serial_Big.txt
+./serial -n 1000 -no -s Serial_Big.txt 
+./serial -n 2000 -no -s Serial_Big.txt
+./serial -n 3000 -no -s Serial_Big.txt
+./serial -n 4000 -no -s Serial_Big.txt
+./serial -n 5000 -no -s Serial_Big.txt
+./serial -n 10000 -no -s Serial_Big.txt
+./serial -n 15000 -no -s Serial_Big.txt
+./serial -n 20000 -no -s Serial_Big.txt
+./serial -n 25000 -no -s Serial_Big.txt
+./serial -n 50000 -no -s Serial_Big.txt
